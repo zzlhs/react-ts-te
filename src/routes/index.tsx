@@ -20,7 +20,7 @@ export const routes: MenuItem[] = [
   {
     label: "应用管理",
     icon: <UsergroupAddOutlined />,
-    key: "user",
+    key: "main",
     // children: [
     //   {
     //     label: "用户列表",
@@ -36,6 +36,6 @@ export const routes: MenuItem[] = [
   }, {
     label: "我的",
     icon: <OrderedListOutlined />,
-    key: "list",
+    key: "my",
   },
 ];

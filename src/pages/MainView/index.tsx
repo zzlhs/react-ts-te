@@ -18,7 +18,7 @@ const data = [
 
 
 
-const User: React.FC= () => {
+const MainView: React.FC= () => {
   return(
     <List
         itemLayout="horizontal"
@@ -36,4 +36,4 @@ const User: React.FC= () => {
 }
 
 
-export default User;
+export default MainView;

@@ -7,7 +7,7 @@ const warning = () => {
     });
 };
 
-const Data: React.FC = () => {
+const MyView: React.FC = () => {
     return (
         <div>
             <h3>邮箱：</h3>1528338926@qq.com
@@ -15,4 +15,4 @@ const Data: React.FC = () => {
         </div>
     )
 }
-export default Data;
+export default MyView;
