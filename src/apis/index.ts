@@ -33,6 +33,9 @@ httpInstance.interceptors.response.use(
   }
 );
 
+/**
+ * 暴露的接口
+ */
 export type ClientError = {
   code: number;
   msg: string;
